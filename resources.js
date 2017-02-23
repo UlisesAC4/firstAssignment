@@ -2,5 +2,8 @@
 //for parallax initialization
 $(document).ready(function(){
   $('.parallax').parallax();
-  $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({
+    closeOnClick: true,
+    draggable: true
+  });
 });
