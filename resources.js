@@ -1,5 +1,6 @@
 //custom JS code
 //for parallax initialization
 $(document).ready(function(){
-$('.parallax').parallax();
+  $('.parallax').parallax();
+  $(".button-collapse").sideNav();
 });

@@ -1,6 +1,7 @@
 <html>
 <head>
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,7 +15,8 @@
     <nav class="teal darken-1">
       <div class="nav-wrapper">
         <a href="#index" class="brand-logo center">MagmaHackers</a>
-        <ul class="right ">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
+        <ul class="right hide-on-med-and-down">
           <li><a href="#about">About me</a></li>
           <li><a href="#hobbies">Hobbies</a></li>
           <li><a href="#dreams">Dreams</a></li>
@@ -23,6 +25,13 @@
       </div>
     </nav>
   </div>
+
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="#about">About me</a></li>
+    <li><a href="#hobbies">Hobbies</a></li>
+    <li><a href="#dreams">Dreams</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 
 <!-- This is de index section, where the parallax image and page title is located -->
   <header id="index">
@@ -161,6 +170,7 @@
     </div>
   </main>
 
+  <!-- Footer section -->
   <footer id="contact" class="page-footer teal darken-1">
     <div class="container">
       <div class="row">
